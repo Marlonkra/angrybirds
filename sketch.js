@@ -28,9 +28,9 @@
 
 
         // 1. Level
-        let boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        let boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        let boxC = Matter.Bodies.rectangle(935, 309, 100, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
+        let boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        let boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        let boxC = Matter.Bodies.rectangle(935, 309, 100, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
         let Pig1 = Matter.Bodies.rectangle(935,399,45,45,{collisionFilter:{category: yesballs}})
         let Pig2 = Matter.Bodies.rectangle(935,259,45,45,{collisionFilter:{category: yesballs}})
         let Pig3 = Matter.Bodies.rectangle(935,499,45,45,{collisionFilter:{category: yesballs}})
@@ -39,7 +39,7 @@
             isStatic: true,
             render: {
              sprite: {
-            texture: "../Assets/ground.png",
+            texture: "./Assets/ground.png",
             yScale: 0.33 ,
             xScale: 2.8
       }
@@ -51,7 +51,7 @@
             isStatic: true,
             render: {
              sprite: {
-            texture: "../Assets/ground.png",
+            texture: "./Assets/ground.png",
             yScale: 0.75 ,
             xScale: 2.8
       }
@@ -62,7 +62,7 @@
              isStatic: true,
             render: {
              sprite: {
-            texture: "../Assets/ground.png",
+            texture: "./Assets/ground.png",
             yScale: 0.75 ,
             xScale: 4.4
         }
@@ -73,7 +73,7 @@
              isStatic: true,
              render: {
               sprite: {
-             texture: "../Assets/ground.png",
+             texture: "./Assets/ground.png",
              yScale: 2.2 ,
              xScale: 5.7
 }
@@ -84,7 +84,7 @@
                 isStatic: true,
                render: {
                 sprite: {
-               texture: "../Assets/ground.png",
+               texture: "./Assets/ground.png",
               yScale: 2.5 ,
              xScale: 27
         }
@@ -95,7 +95,7 @@
                 isStatic: true,
                 render: {
                  sprite: {
-                  texture: "../Assets/ground.png",
+                  texture: "./Assets/ground.png",
                   yScale: 0.33 ,
                  xScale: 2.8
         }
@@ -163,20 +163,20 @@
                 isStatic: true,
                 render: {
                  sprite: {
-                texture: "../Assets/ground.png",
+                texture: "./Assets/ground.png",
                 yScale: 0.4 ,
                 xScale: 3.7
           }
         }
       });
 
-            boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxC = Matter.Bodies.rectangle(970, 309, 175, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.8,yScale: 0.4}}})
-            boxD = Matter.Bodies.rectangle(1040, 259, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxE = Matter.Bodies.rectangle(1040, 359, 25, 100,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxF = Matter.Bodies.rectangle(970, 249, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxG = Matter.Bodies.rectangle(1005, 159, 100, 25, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
+            boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxC = Matter.Bodies.rectangle(970, 309, 175, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.8,yScale: 0.4}}})
+            boxD = Matter.Bodies.rectangle(1040, 259, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxE = Matter.Bodies.rectangle(1040, 359, 25, 100,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxF = Matter.Bodies.rectangle(970, 249, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxG = Matter.Bodies.rectangle(1005, 159, 100, 25, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
             Pig1 = Matter.Bodies.rectangle(935,259,45,45,{collisionFilter:{category: yesballs}})
             Pig2 = Matter.Bodies.rectangle(935,399,45,45,{collisionFilter:{category: yesballs}})
             Pig3 = Matter.Bodies.rectangle(1005,299,45,45,{collisionFilter:{category: yesballs}})
@@ -198,7 +198,7 @@
                 isStatic: true,
                 render: {
                  sprite: {
-                texture: "../Assets/ground.png",
+                texture: "./Assets/ground.png",
                 yScale: 0.4 ,
                 xScale: 3.7
           }
@@ -206,13 +206,13 @@
       });
 
 
-            boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxC = Matter.Bodies.rectangle(970, 309, 175, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.8,yScale: 0.4}}})
-            boxD = Matter.Bodies.rectangle(1005, 259, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxE = Matter.Bodies.rectangle(1040, 359, 25, 100,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxF = Matter.Bodies.rectangle(945, 249, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-            boxG = Matter.Bodies.rectangle(975, 159, 100, 25, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
+            boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxC = Matter.Bodies.rectangle(970, 309, 175, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.8,yScale: 0.4}}})
+            boxD = Matter.Bodies.rectangle(1005, 259, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxE = Matter.Bodies.rectangle(1040, 359, 25, 100,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxF = Matter.Bodies.rectangle(945, 249, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+            boxG = Matter.Bodies.rectangle(975, 159, 100, 25, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
             Pig1 = Matter.Bodies.rectangle(935,399,45,45,{collisionFilter:{category: yesballs}})
             Pig2 = Matter.Bodies.rectangle(1005,399,45,45,{collisionFilter:{category: yesballs}})
             Pig3 = Matter.Bodies.rectangle(970,299,45,45,{collisionFilter:{category: yesballs}})
@@ -233,7 +233,7 @@
             isStatic: true,
             render: {
              sprite: {
-            texture: "../Assets/ground.png",
+            texture: "./Assets/ground.png",
             yScale: 0.4 ,
             xScale: 3.7
       }
@@ -241,13 +241,13 @@
   });
 
 
-        boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        boxC = Matter.Bodies.rectangle(970, 309, 175, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.8,yScale: 0.4}}})
-        boxD = Matter.Bodies.rectangle(1005, 259, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        boxE = Matter.Bodies.rectangle(1040, 359, 25, 100,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        boxF = Matter.Bodies.rectangle(945, 249, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
-        boxG = Matter.Bodies.rectangle(975, 159, 100, 25, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("../Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
+        boxA = Matter.Bodies.rectangle(900, 359, 25, 100, {collisionFilter: {category:yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        boxB = Matter.Bodies.rectangle(970, 359, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        boxC = Matter.Bodies.rectangle(970, 309, 175, 25,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.8,yScale: 0.4}}})
+        boxD = Matter.Bodies.rectangle(1005, 259, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        boxE = Matter.Bodies.rectangle(1040, 359, 25, 100,{collisionFilter:{category: yesballs}, render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        boxF = Matter.Bodies.rectangle(945, 249, 25, 100, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood.png"),xScale: 0.4,yScale: 0.5}}})
+        boxG = Matter.Bodies.rectangle(975, 159, 100, 25, {collisionFilter: {category: yesballs},render: {sprite: {texture: ("./Assets/wood90.png"),xScale: 0.45,yScale: 0.4}}})
         Pig1 = Matter.Bodies.rectangle(935,399,45,45,{collisionFilter:{category: yesballs}})
         Pig2 = Matter.Bodies.rectangle(1005,399,45,45,{collisionFilter:{category: yesballs}})
         Pig3 = Matter.Bodies.rectangle(970,299,45,45,{collisionFilter:{category: yesballs}})
